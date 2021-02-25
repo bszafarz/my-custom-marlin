@@ -9,3 +9,7 @@ Creality Ender 3 with following mods:
 ## Sources:
 - [Marlin download page](https://marlinfw.org/meta/download/)
 - [Reddit guide](https://www.reddit.com/r/ender3/comments/hymv70/marlin_20x_guide_skr_mini_e3_v12_ender_3/)
+- [BTT SKR E3 mini v1.2 - pinout](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V1.2/BTT%20SKR%20MINI%20E3%20V1.2PIN.pdf)
+- [BTT SKR E3 mini v1.2 - ABL (BLTouch type) wiring](https://github.com/gazcbm/Marlin-2.0.x-SKR-Mini-E3-v1.2)
+- [BTT SKR E3 mini v1.2 - ABL (BLTouch type) wiring second scheme](https://raw.githubusercontent.com/morningreis/Marlin-SKR-E3-Mini-1.2/bugfix-2.0.x/SKR_E3_Mini_1.2_wiring.png)
+

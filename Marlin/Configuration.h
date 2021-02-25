@@ -18,12 +18,13 @@
 #define AUTO_BED_LEVELING_BILINEAR
 //#define MESH_BED_LEVELING
 #define ENDSTOP_INTERRUPTS_FEATURE
+#define XY_PROBE_SPEED (100*60)
 #define PROBING_MARGIN 15
 #define Z_MIN_PROBE_REPEATABILITY_TEST
 #define RESTORE_LEVELING_AFTER_G28
 
 /*
-*    Other suggested by reddit thread
+*    General settings suggested by reddit thread
 */
 #define SHOW_CUSTOM_BOOTSCREEN
 #define CUSTOM_STATUS_SCREEN_IMAGE

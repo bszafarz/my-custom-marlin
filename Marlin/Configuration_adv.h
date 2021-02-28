@@ -15,6 +15,7 @@
 *    General settings suggested by reddit thread
 */
 #define HOTEND_IDLE_TIMEOUT
+#define HOTEND_IDLE_TIMEOUT_SEC (8*60)
 #define SLOWDOWN_DIVISOR 8
 #define SHOW_REMAINING_TIME
 #define USE_M73_REMAINING_TIME

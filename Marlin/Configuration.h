@@ -13,7 +13,7 @@
 *    ABL (3Dtouch) related changes
 */
 #define BLTOUCH
-#define NOZZLE_TO_PROBE_OFFSET { 38.2, 0, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { 38.2, 0, -2.915 }
 #define Z_SAFE_HOMING
 #define AUTO_BED_LEVELING_BILINEAR
 //#define MESH_BED_LEVELING
@@ -38,3 +38,23 @@
 #define LCD_LANGUAGE en
 //#define DISPLAY_CHARSET_HD44780 WESTERN
 #define FAN_SOFT_PWM
+
+#define PIDTEMP
+#define DEFAULT_Kp  24.97
+#define DEFAULT_Ki   2.73
+#define DEFAULT_Kd  57.06
+
+#define PIDTEMPBED
+#define DEFAULT_bedKp 61.52
+#define DEFAULT_bedKi 11.81
+#define DEFAULT_bedKd 213.68
+
+#define PREHEAT_1_LABEL       "PETG"
+#define PREHEAT_1_TEMP_HOTEND 200
+#define PREHEAT_1_TEMP_BED     65
+#define PREHEAT_1_FAN_SPEED   0
+
+#define PREHEAT_2_LABEL       "PLA"
+#define PREHEAT_2_TEMP_HOTEND 150
+#define PREHEAT_2_TEMP_BED    50
+#define PREHEAT_2_FAN_SPEED   0
